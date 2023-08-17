@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  height: 600px;
+  background: #387E61;
+  margin: 100px auto 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.srchbox {
+  text-align: center;
+  height: 35px;
+  border: none;
+  opacity: 60%;
+  border-radius: 30px;
+}
+
+.srchbtn {
+  text-align: center;
+  height: 35px;
+  border: none;
+  opacity: 60%;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.test {
+  position: absolute;
+  z-index: 1;
+}
+
+.info {
+  z-index: 2;
+  position: relative;
+}
+
+h2, h1, p, h3 {
+  color: white;
+}
+
+.hoursDay, .maxTempDay, .minTempDay, .weatherIcons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quote {
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */
